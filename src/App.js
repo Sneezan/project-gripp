@@ -1,9 +1,17 @@
-import React from 'react'
+import { About } from 'components/About';
+import { Main } from 'components/Main';
+import { NotFound } from 'components/NotFound';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 export const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
