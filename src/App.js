@@ -1,6 +1,6 @@
-import { About } from 'components/About';
-import { Main } from 'components/Main';
-import { NotFound } from 'components/NotFound';
+import { About } from 'components/About/About';
+import { Main } from 'components/Main/Main';
+import { NotFound } from 'components/NotFound/NotFound';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
