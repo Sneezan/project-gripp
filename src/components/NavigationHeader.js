@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
-const NavigationHeader = () => {
+export const NavigationHeader = () => {
   const [visible, setVisible] = useState(false)
 
   const toggleClass = () => {
@@ -18,14 +18,14 @@ const NavigationHeader = () => {
       </BurgerButton>
       <CenterNav className={visible ? 'input-active' : 'input-hidden'}>
         <Menu>
-          <Link to="/about"><NavLink>Hejj</NavLink></Link>
           <Link to="/about"><NavLink>About</NavLink></Link>
+          <Link to="/about"><NavLink>What is this?</NavLink></Link>
+          <Link to="/about"><NavLink>Where to play</NavLink></Link>
         </Menu>
       </CenterNav>
     </Nav>
   )
 }
-export default NavigationHeader;
 
 const Nav = styled.div`
 background-color: black;
@@ -53,7 +53,7 @@ justify-content: center;
 }
 @media (min-width:790px){
 justify-content: end;
-padding-right: 200px;
+padding-right: 70px;
 &.input-hidden {
   display: flex;
 }
@@ -70,6 +70,8 @@ font-size: 1.2rem;
 background-color: black;
 margin: 10px;
 @media (min-width:900px){
+padding-left: 20px;
+padding-right: 20px;
 &:hover{
 color:  #E7447B;
 }
@@ -82,8 +84,8 @@ const Menu = styled.div`
 @media (max-width:790px){
 background-color: black;
  height: 100px;
- width: 100px;
- padding: 30px;
+ width: 300px;
+ padding: 20%;
 
  display: grid;
  }

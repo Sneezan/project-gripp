@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Hero = styled.div`
+export const CenterDiv = styled.div`
 background-color: bisque;
 height: 100vh;
 display: flex;
