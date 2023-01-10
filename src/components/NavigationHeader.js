@@ -28,9 +28,15 @@ export const NavigationHeader = () => {
 }
 
 const Nav = styled.div`
-background-color: black;
+background-color:  var(--vivaMagentaDark);
 width: 100%;
 height: 100%;
+a:link{
+    text-decoration: none;
+}
+a:visited { 
+    text-decoration: none; 
+}
 `
 const BurgerButton = styled.button`
 position: absolute; 
@@ -65,28 +71,26 @@ padding-right: 0px;
 `
 
 const NavLink = styled.p`
-color: white;
+color: var(--rose);
 font-size: 1.2rem;
-background-color: black;
 margin: 10px;
+font-weight: 600;
 @media (min-width:900px){
 padding-left: 20px;
 padding-right: 20px;
 &:hover{
-color:  #E7447B;
+color: var(--warmWhite);
 }
 }
 `
 
 const Menu = styled.div`
   display: flex;
-
 @media (max-width:790px){
-background-color: black;
+    background-color:  var(--vivaMagentaDark);
  height: 100px;
  width: 300px;
  padding: 20%;
-
  display: grid;
  }
  `
