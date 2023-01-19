@@ -3,29 +3,32 @@ import { NavigationHeader } from 'components/main/NavigationHeader.js';
 import React from 'react';
 import GitHub from 'assets/1.png'
 import LInkedIn from 'assets/2.png'
-import { AboutWrap, ContactWrap, IdeaWrap, Links, TalkAboutItWrap, TalkAboutItWrapTwo, TextWrap } from './AboutStyles';
+import { ContactWrap, Links, TalkAboutItWrapTwo, TextWrap } from 'components/about/AboutStyles.js';
+import { DemoWrap, GameWrap, TechWrap } from './WhatIsStyles';
 
-export const About = () => {
+export const WhatIsThis = () => {
   return (
     <OuterWrapper>
       <NavigationHeader />
-      <AboutWrap>
+      <GameWrap>
         <TextWrap>
-          <Medium>One fourth of Swedens&apos; population stuggle in some
-          type of way with their mental health
+          <Medium>Game
           </Medium>
         </TextWrap>
-      </AboutWrap>
-      <IdeaWrap>
+      </GameWrap>
+
+      <DemoWrap>
         <TextWrap>
-          <Large>Twice as many women struggle as men</Large>
+          <Large>Demo</Large>
         </TextWrap>
-      </IdeaWrap>
-      <TalkAboutItWrap>
+      </DemoWrap>
+
+      <TechWrap>
         <TextWrap>
-          <XLarge>Why don&apos;t we talk about it more?</XLarge>
+          <XLarge>WTechstack</XLarge>
         </TextWrap>
-      </TalkAboutItWrap>
+      </TechWrap>
+
       <TalkAboutItWrapTwo>
         <TextWrap>
           <Large>Gripp is a social ice-breaker style game designed to get people talking
@@ -34,6 +37,7 @@ export const About = () => {
           </Large>
         </TextWrap>
       </TalkAboutItWrapTwo>
+
       <ContactWrap>
         <TextWrap>
           <Medium>This game was created as part of a

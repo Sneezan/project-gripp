@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { InnerWrapper } from 'components/HeroHeader';
-import { Medium } from './GlobalStyles';
+import { InnerWrapper } from 'components/main/HeroHeader';
+import { Medium } from '../GlobalStyles';
 
 export const LinkWrap = styled(InnerWrapper)`
 display: none;
@@ -27,5 +27,12 @@ color: var(--rose);
 color: var(--warmWhite);
 padding-left: 10%;
 }
+}
+`
+
+export const Image = styled.img`
+width: 550px;
+@media (max-width:790px){
+width: 90%;
 }
 `

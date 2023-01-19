@@ -19,7 +19,7 @@ export const NavigationHeader = () => {
       <CenterNav className={visible ? 'input-active' : 'input-hidden'}>
         <Menu>
           <Link to="/about"><NavLink>About</NavLink></Link>
-          <Link to="/about"><NavLink>What is this?</NavLink></Link>
+          <Link to="/what-is-this"><NavLink>What is this?</NavLink></Link>
           <Link to="/about"><NavLink>Where to play</NavLink></Link>
         </Menu>
       </CenterNav>

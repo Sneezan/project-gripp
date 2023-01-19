@@ -1,8 +1,9 @@
-import { About } from 'components/about/About';
-import { MainPage } from 'components/Main';
-import { NotFound } from 'components/NotFound/NotFound';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { MainPage } from 'components/main/Main.js';
+import { About } from 'components/about/About';
+import { NotFound } from 'components/NotFound/NotFound';
+import { WhatIsThis } from 'components/whatisthis/WhatIsThis';
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/what-is-this" element={<WhatIsThis />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

@@ -1,15 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CenterDiv, InnerWrapper } from 'components/HeroHeader';
-import { NavigationHeader } from 'components/NavigationHeader';
-import { LinkWrap, MediumLink } from './MainStyles';
+import { CenterDiv, InnerWrapper } from 'components/main/HeroHeader';
+import { NavigationHeader } from 'components/main/NavigationHeader';
+import LargeLogo from 'assets/GRIPP_large.png'
+import { Image, LinkWrap, MediumLink } from './MainStyles';
 
 export const MainPage = () => {
   return (
     <div>
       <NavigationHeader />
       <CenterDiv>
-        <h1>gripp</h1>
+        <Image
+          src={LargeLogo}
+          alt="Gripp logotype" />
         <LinkWrap>
           <InnerWrapper>
             <Link to="/about"><MediumLink>About</MediumLink></Link>

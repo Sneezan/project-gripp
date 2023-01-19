@@ -1,31 +1,21 @@
+import { AboutWrap } from 'components/about/AboutStyles';
 import styled from 'styled-components';
 
 /* blocks */
-export const AboutWrap = styled.div`
-display: flex;
-justify-items: center;
-justify-content: center;
-align-items: center;
-height: 400px;
-padding: 10%;
-text-align: center;
-background-color: var(--rose);
-color: var(--vivaMagentaDark);
-`
-export const IdeaWrap = styled(AboutWrap)`
+export const GameWrap = styled(AboutWrap)`
 height: 300px;
 color: var(--warmWhite);
 background-color: var(--vivaMagenta);
 `
-export const TalkAboutItWrap = styled(AboutWrap)`
+export const DemoWrap = styled(AboutWrap)`
 height: 300px;
 color: var(--rose);
 background-color: var(--vivaMagentaDark);
 `
-export const TalkAboutItWrapTwo = styled(AboutWrap)`
+export const TechWrap = styled(AboutWrap)`
 height: 500px;
-color: var(--vivaMagentaDark);
-background-color: var(--rose);
+color: var(--rose);
+background-color: var(--vivaMagenta);
 `
 export const ContactWrap = styled(AboutWrap)`
 height: 600px;
