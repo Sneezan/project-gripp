@@ -14,13 +14,13 @@ export const NavigationHeader = () => {
   return (
     <Nav>
       <BurgerButton onClick={toggleClass}>
-        {visible ? <MenuOpenIcon /> : <MenuIcon />}
+        {visible ? <MenuOpenIcon sx={{ fontSize: 30 }} /> : <MenuIcon sx={{ fontSize: 30 }} />}
       </BurgerButton>
       <CenterNav className={visible ? 'input-active' : 'input-hidden'}>
         <Menu>
           <Link to="/about"><NavLink>About</NavLink></Link>
           <Link to="/what-is-this"><NavLink>What is this?</NavLink></Link>
-          <Link to="/about"><NavLink>Where to play</NavLink></Link>
+          <Link to="/play"><NavLink>Where to play</NavLink></Link>
         </Menu>
       </CenterNav>
     </Nav>
@@ -40,8 +40,13 @@ a:visited {
 `
 const BurgerButton = styled.button`
 position: absolute; 
-right: 10px;
-top: 10px;
+background-color: var(--vivaMagentaDark); 
+color:  var(--rose);
+border: none;
+padding: 5px;
+border-radius: 5px;
+right: 15px;
+top: 15px;
 @media (min-width:790px){
 display: none;
 }
