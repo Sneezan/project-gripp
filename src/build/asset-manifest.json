@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db21d73b.css",
+    "main.js": "/static/js/main.47e4551e.js",
+    "static/media/MockUpWeb.png": "/static/media/MockUpWeb.184456ba155a5a1b989a.png",
+    "static/media/MockUpsGripp.png": "/static/media/MockUpsGripp.37dd27cc9815b9467a4f.png",
+    "static/media/GRIPP_large.png": "/static/media/GRIPP_large.829a1694ce17ce18b6ac.png",
+    "index.html": "/index.html",
+    "main.db21d73b.css.map": "/static/css/main.db21d73b.css.map",
+    "main.47e4551e.js.map": "/static/js/main.47e4551e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db21d73b.css",
+    "static/js/main.47e4551e.js"
+  ]
+}

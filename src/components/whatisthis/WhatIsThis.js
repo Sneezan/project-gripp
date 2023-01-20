@@ -2,7 +2,7 @@ import { Large, Medium, OuterWrapper, Span } from 'components/GlobalStyles';
 import { NavigationHeader } from 'components/main/NavigationHeader.js';
 import { Link, useNavigate } from 'react-router-dom';
 import React from 'react';
-import { ContactWrap, TalkAboutItWrapTwo, TextWrap } from 'components/about/AboutStyles.js';
+import { ContactWrap, TalkAboutItWrapTwo, TextWrap } from 'components/aboutsection/AboutStyles.js';
 import MockUp from 'assets/MockUpsGripp.png'
 import { DemoWrap, GameWrap, Mockup, TextLink, Button } from './WhatIsStyles';
 

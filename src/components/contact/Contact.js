@@ -1,7 +1,7 @@
 import React from 'react';
 import { Large, OuterWrapper } from 'components/GlobalStyles';
 import { NavigationHeader } from 'components/main/NavigationHeader.js';
-import { TextWrap } from 'components/about/AboutStyles.js';
+import { TextWrap } from 'components/aboutsection/AboutStyles.js';
 import GitHub from 'assets/1.png'
 import LInkedIn from 'assets/2.png'
 import { DemoWrap, Links } from './ContactSyles';

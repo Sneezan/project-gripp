@@ -1,7 +1,7 @@
 import { Large, Medium, Small, OuterWrapper, Span } from 'components/GlobalStyles';
 import { NavigationHeader } from 'components/main/NavigationHeader.js';
 import React from 'react';
-import { ContactWrap, TextWrap } from 'components/about/AboutStyles.js';
+import { ContactWrap, TextWrap } from 'components/aboutsection/AboutStyles.js';
 import MockUp from 'assets/MockUpWeb.png'
 import { DemoWrap, GameWrap, Mockup, Button, Links } from './WhereToPlayStyles';
 

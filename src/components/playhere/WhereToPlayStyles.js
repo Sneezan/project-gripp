@@ -1,4 +1,4 @@
-import { AboutWrap } from 'components/about/AboutStyles';
+import { AboutWrap } from 'components/aboutsection/AboutStyles';
 import styled from 'styled-components';
 
 /* blocks */

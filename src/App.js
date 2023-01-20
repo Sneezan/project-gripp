@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MainPage } from 'components/main/Main.js';
-import { About } from 'components/about/About';
+import { About } from 'components/aboutsection/About';
 import { NotFound } from 'components/NotFound/NotFound';
 import { WhatIsThis } from 'components/whatisthis/WhatIsThis';
 import { WhereToPlay } from 'components/playhere/WhereToPlay';
