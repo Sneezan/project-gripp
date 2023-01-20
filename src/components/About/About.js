@@ -1,6 +1,6 @@
+import React from 'react';
 import { Large, Medium, OuterWrapper, Span, XLarge } from 'components/GlobalStyles';
 import { NavigationHeader } from 'components/main/NavigationHeader.js';
-import React from 'react';
 import GitHub from 'assets/1.png'
 import LInkedIn from 'assets/2.png'
 import { AboutWrap, ContactWrap, IdeaWrap, Links, TalkAboutItWrap, TalkAboutItWrapTwo, TextWrap } from './AboutStyles';

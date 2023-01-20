@@ -18,7 +18,7 @@ export const MainPage = () => {
             <Link to="/about"><MediumLink>About</MediumLink></Link>
             <Link to="/what-is-this"><MediumLink>What is this</MediumLink></Link>
             <Link to="/play"><MediumLink>Where to play</MediumLink></Link>
-            <Link to="/about"><MediumLink>Contact</MediumLink></Link>
+            <Link to="/contact"><MediumLink>Contact</MediumLink></Link>
           </InnerWrapper>
         </LinkWrap>
       </CenterDiv>

@@ -2,18 +2,11 @@ import { AboutWrap } from 'components/about/AboutStyles';
 import styled from 'styled-components';
 
 /* blocks */
-export const GameWrap = styled(AboutWrap)`
-height: 300px;
-color: var(--warmWhite);
-background-color: var(--vivaMagenta);
-`
+
 export const DemoWrap = styled(AboutWrap)`
-height: 550px;
+height: 100vh;
 color: var(--rose);
 background-color: var(--vivaMagentaDark);
-@media (min-width:890px){
-height: 500px;
-}
 `
 
 export const ContactWrap = styled(AboutWrap)`
