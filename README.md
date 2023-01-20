@@ -1,6 +1,7 @@
 # Gripp Landing Page
 A simple minimalistic landing page for Project Gripp - a social ice-breaker style game. 
 This site is built using React and react-navigation. 
+![Screenshot 2023-01-20 at 15 22 14 (2)](https://user-images.githubusercontent.com/105229808/213722230-4466463c-7ba8-44ff-b3d2-5d13c07f54ae.png)
 
 ## View it live!
 https://gripp.netlify.app
